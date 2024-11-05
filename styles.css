@@ -1,0 +1,36 @@
+/* Estilos para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #323047;
+  margin: 0;
+}
+
+/* Estilos para o formulário */
+form {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+}
+
+/* Estilos para a mensagem de validação */
+.message {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Estilos para a mensagem de sucesso */
+.success {
+  color: green;
+}
+
+/* Estilos para a mensagem de erro */
+.error {
+  color: red;
+}
